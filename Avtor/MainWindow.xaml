@@ -1,0 +1,15 @@
+﻿<Window x:Class="Avtor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Avtor"
+        mc:Ignorable="d"
+        Title="MainWindow" MinHeight="400" MinWidth="600" Height="400" Width="600">
+    <Grid>
+        <Button Content="Авторизация" Margin="200,216,200,0" VerticalAlignment="Top" Height="40" Click="Button_Click"/>
+        <TextBox x:Name="Text1" Margin="173,36,173,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="32" UndoLimit="15" MinLines="6"/>
+        <TextBox x:Name="Text2" Margin="173,85,173,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="32" UndoLimit="30"/>
+
+    </Grid>
+</Window>
